@@ -14,3 +14,9 @@ type DiscoveryProps = {
     title: string;
     creator: Creator
 }
+
+export type HowItWorkCard = {
+    title: string;
+    description: string;
+    img: string
+}

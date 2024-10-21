@@ -1,4 +1,4 @@
-import type { Collection, DiscoveryProps } from "@/types";
+import type { Collection, DiscoveryProps, HowItWorkCard } from "@/types";
 
 export const collections: Collection[] = [
     {
@@ -42,5 +42,23 @@ export const discoveries: DiscoveryProps[] = [
         price: '1.63 ETH',
         highestBid: '0.33 wETH',
         img: '/images/nft-discovery/img1.png'
+    }
+]
+
+export const howItWorksList: HowItWorkCard[] = [
+    {
+        img: '/images/how-it-works/img1.svg',
+        title: 'Setup Your Wallet',
+        description: 'Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.'
+    },
+    {
+        img: '/images/how-it-works/img2.svg',
+        title: 'Create Collection',
+        description: 'Upload your work and setup your collection. Add a description, social links and floor price.'
+    },
+    {
+        img: '/images/how-it-works/img3.svg',
+        title: 'Start Earning',
+        description: 'Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.'
     }
 ]
