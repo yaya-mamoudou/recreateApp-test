@@ -28,6 +28,9 @@ const config: Config = {
       'sm': '1rem',
       'xs': '0.75rem'
     },
+    borderRadius: {
+      20: '20px'
+    }
   },
   plugins: [],
 };

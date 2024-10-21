@@ -1,3 +1,5 @@
+import Button from '@/components/button';
+import { Rocket } from 'lucide-react';
 import Image from 'next/image';
 
 export default function HomePage() {
@@ -14,6 +16,9 @@ export default function HomePage() {
 				<h2 className='font-extralight'>Hello</h2>
 				<h2 className='font-thin'>Hello</h2>
 				<h2 className=' font-space-mono font-bold'> Space Mono 240k+</h2>
+				<Button>
+					<Rocket size={20} className='' /> View Rankings
+				</Button>
 			</main>
 		</div>
 	);
