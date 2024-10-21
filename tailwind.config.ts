@@ -24,12 +24,13 @@ const config: Config = {
       '2xl': '3.188rem',
       'xl': '2.375rem',
       'lg': '1.75rem',
-      'md': '1.375rem',
-      'sm': '1rem',
+      'md': '1.275rem',
+      'sm': '0.91rem',
       'xs': '0.75rem'
     },
     borderRadius: {
-      20: '20px'
+      20: '20px',
+      full: '100%'
     }
   },
   plugins: [],
