@@ -1,5 +1,7 @@
 import Button from '@/components/button';
+import CollectionCard from '@/components/cards/collection-card';
 import CreatorCard from '@/components/cards/creator-card';
+import { collections } from '@/data/mock-data';
 import { Rocket } from 'lucide-react';
 import Image from 'next/image';
 
@@ -28,6 +30,8 @@ export default function HomePage() {
 					creatorName='Mamoudou'
 					creatorAmount='34.53 ETH'
 				/>
+
+				<CollectionCard {...collections[0]} />
 			</main>
 		</div>
 	);
