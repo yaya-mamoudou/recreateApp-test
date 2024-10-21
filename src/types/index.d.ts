@@ -20,3 +20,9 @@ export type HowItWorkCard = {
     description: string;
     img: string
 }
+
+export type CategoryCardProp = {
+    name: string;
+    img: string;
+    icon: string;
+};

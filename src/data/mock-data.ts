@@ -1,4 +1,4 @@
-import type { Collection, DiscoveryProps, HowItWorkCard } from "@/types";
+import type { CategoryCardProp, Collection, DiscoveryProps, HowItWorkCard } from "@/types";
 
 export const collections: Collection[] = [
     {
@@ -61,4 +61,16 @@ export const howItWorksList: HowItWorkCard[] = [
         title: 'Start Earning',
         description: 'Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.'
     }
+]
+
+export const categoriesCardList: CategoryCardProp[] = [
+    { img: '/images/categories/img1.png', name: 'Art', icon: '/svg/PaintBrush.svg' },
+    { img: '/images/categories/img2.png', name: 'Collectibles', icon: '/svg/Swatches.svg' },
+    { img: '/images/categories/img3.png', name: 'Music', icon: '/svg/MusicNotes.svg' },
+    { img: '/images/categories/img4.png', name: 'Photography', icon: '/svg/Camera.svg' },
+    { img: '/images/categories/img5.png', name: 'Video', icon: '/svg/VideoCamera.svg' },
+    { img: '/images/categories/img6.png', name: 'Utility', icon: '/svg/MagicWand.svg' },
+    { img: '/images/categories/img7.png', name: 'Sport', icon: '/svg/Backetball.svg' },
+    { img: '/images/categories/img8.png', name: 'Virtual Worlds', icon: '/svg/Planet.svg' }
+
 ]
