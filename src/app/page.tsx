@@ -1,9 +1,9 @@
 import Button from '@/components/button';
 import CollectionCard from '@/components/cards/collection-card';
 import CreatorCard from '@/components/cards/creator-card';
-import { collections } from '@/data/mock-data';
+import DiscoveryCard from '@/components/cards/discovery-card';
+import { collections, discoveries } from '@/data/mock-data';
 import { Rocket } from 'lucide-react';
-import Image from 'next/image';
 
 export default function HomePage() {
 	return (
@@ -32,6 +32,8 @@ export default function HomePage() {
 				/>
 
 				<CollectionCard {...collections[0]} />
+
+				<DiscoveryCard {...discoveries[0]} />
 			</main>
 		</div>
 	);
