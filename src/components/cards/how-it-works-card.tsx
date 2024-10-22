@@ -10,6 +10,7 @@ export default function HowItWorksCard(props: HowItWorkCard) {
 				src={props.img}
 				width={300}
 				height={300}
+				loading='lazy'
 				className='object-cover size-[100px] md:size-[200px] rounded-20 rounded-b-[0] bg-black-secondary'
 			/>
 			<div className='md:text-center'>

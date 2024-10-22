@@ -11,6 +11,7 @@ export default function CreatorCard(props: CreatorCard) {
 				className='bg-white size-[50px] ml-2 lg:size-[100px] rounded-full object-cover'
 				src={props.img}
 				alt={props.creatorName}
+				loading='lazy'
 			/>
 
 			<div className='rounded-full bg-black absolute  top-3 lg:top-4 flex items-center justify-center left-[calc(14.5px+)] lg:left-4 size-[25px] text-gray-caption'>

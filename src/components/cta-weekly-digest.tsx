@@ -11,6 +11,7 @@ export default function CtaWeeklyDigest() {
 				src='/images/astronaute.png'
 				width={500}
 				height={500}
+				loading='lazy'
 				className='object-cover w-full md:w-[500px]  rounded-20 rounded-b-[0] bg-black-secondary'
 			/>
 

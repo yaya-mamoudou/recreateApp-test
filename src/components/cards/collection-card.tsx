@@ -11,10 +11,12 @@ export default function CollectionCard(props: Collection) {
 				src={props.images?.[0]}
 				width={300}
 				height={300}
+				loading='lazy'
 				className='object-cover w-full rounded-20 bg-black-secondary'
 			/>
 			<div className='flex *:flex-1 gap-x-3 mb-2'>
 				<Image
+					loading='lazy'
 					alt={props.title}
 					src={props.images?.[1]}
 					width={100}
@@ -22,6 +24,7 @@ export default function CollectionCard(props: Collection) {
 					className='object-cover rounded-20 aspect-square  bg-black-secondary'
 				/>
 				<Image
+					loading='lazy'
 					alt={props.title}
 					src={props.images?.[2]}
 					width={100}

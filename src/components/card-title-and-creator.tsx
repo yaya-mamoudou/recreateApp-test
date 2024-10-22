@@ -12,6 +12,7 @@ export default function CardTitleAndCreator(props: Props) {
 			<div className='font-semibold text-md'>{props.title}</div>
 			<div className='flex gap-x-2 mt-2 items-center'>
 				<Image
+					loading='lazy'
 					alt={props.title}
 					src={props.avatar}
 					width={20}

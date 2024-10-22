@@ -11,10 +11,12 @@ export default function CategoryCard(props: CategoryCardProp) {
 					src={props.img}
 					width={300}
 					height={300}
+					loading='lazy'
 					className='object-cover rounded-20 rounded-b-[0] bg-black-secondary'
 				/>
 				<div className='absolute top-0 flex items-center justify-center rounded-t-20 backdrop-blur-md bg-white/5 b size-full'>
 					<Image
+						loading='lazy'
 						alt={props.name}
 						src={props.icon}
 						width={100}

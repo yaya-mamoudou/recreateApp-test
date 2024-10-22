@@ -18,6 +18,7 @@ export default function Countdown() {
 						<div className='space-y-4 mt-auto'>
 							<div className='rounded-20 flex items-center gap-x-2 sp w-fit py-3 px-4 bg-black-secondary'>
 								<Image
+									loading='lazy'
 									width={20}
 									height={20}
 									src={'/images/avatars/img3.png'}

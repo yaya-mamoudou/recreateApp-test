@@ -12,6 +12,7 @@ export default function DiscoveryCard(props: DiscoveryProps) {
 				src={props.img}
 				width={300}
 				height={300}
+				loading='lazy'
 				className='object-cover w-full rounded-20 rounded-b-[0] bg-black-secondary'
 			/>
 			<div className='p-6 '>

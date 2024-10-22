@@ -11,6 +11,7 @@ export default function HeroCard() {
 					src='/images/hero/img1.png'
 					width={400}
 					height={400}
+					loading='lazy'
 					className='object-cover w-full md:w-[350px] xl:w-[500px]  rounded-20 rounded-b-[0] bg-black-secondary'
 				/>
 			</div>
