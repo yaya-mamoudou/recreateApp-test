@@ -1,4 +1,5 @@
 import BrowseCategories from '@/components/categories';
+import Countdown from '@/components/countdown';
 import CtaWeeklyDigest from '@/components/cta-weekly-digest';
 import Discoveries from '@/components/discoveries';
 import Footer from '@/components/footer';
@@ -20,6 +21,7 @@ export default function HomePage() {
 				<TopCreators />
 				<BrowseCategories />
 				<Discoveries />
+				<Countdown />
 				<HowItWorks />
 				<CtaWeeklyDigest />
 				<Footer />
