@@ -16,8 +16,6 @@ export default function Button(props: Props) {
 	if (variant === 'outlined') extraClasses = 'border-2 bg-transparent border-purple';
 	if (size === 'sm') extraClasses = extraClasses.concat(' h-[3rem]');
 
-	console.log(extraClasses, '====');
-
 	return (
 		<button
 			className={cn(

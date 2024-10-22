@@ -19,12 +19,15 @@ const config: Config = {
       'work-sans': ['var(--font-work-sans)', 'sans-serif'],
       'space-mono': ['var(--font-space-mono)', 'sans-serif']
     },
+    container: {
+      center: true
+    },
     fontSize: {
       '3xl': '4.188rem',
       '2xl': '3.188rem',
       'xl': '2.375rem',
       'lg': '1.75rem',
-      'md': '1.275rem',
+      'md': '1.175rem',
       'sm': '0.91rem',
       'xs': '0.75rem'
     },
