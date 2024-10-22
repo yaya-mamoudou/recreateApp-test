@@ -44,8 +44,8 @@ const Navbar = () => {
 						<Link href='#'>Connect a wallet</Link>
 					</li>
 					<li onClick={closeMenu}>
-						<Button>
-							<User2 /> Sign Up
+						<Button size='sm' className='text-sm'>
+							<User2 size={20} /> Sign Up
 						</Button>
 					</li>
 				</ul>
