@@ -49,7 +49,7 @@ const Stat = (props: Props) => {
 const ButtonAndStats = () => {
 	return (
 		<div className='flex flex-col items-center md:items-start'>
-			<Button className='mt-6 w-full '>
+			<Button className='mt-6 w-full md:w-fit '>
 				<Rocket size={20} /> Get Started
 			</Button>
 
