@@ -1,4 +1,4 @@
-import type { CategoryCardProp, Collection, DiscoveryProps, HowItWorkCard } from "@/types";
+import type { CategoryCardProp, Collection, CreatorCard, DiscoveryProps, HowItWorkCard } from "@/types";
 
 export const collections: Collection[] = [
     {
@@ -72,5 +72,19 @@ export const categoriesCardList: CategoryCardProp[] = [
     { img: '/images/categories/img6.png', name: 'Utility', icon: '/svg/MagicWand.svg' },
     { img: '/images/categories/img7.png', name: 'Sport', icon: '/svg/Backetball.svg' },
     { img: '/images/categories/img8.png', name: 'Virtual Worlds', icon: '/svg/Planet.svg' }
+]
 
+export const topCreators: CreatorCard[] = [
+    { creatorName: 'Keepitreal', creatorAmount: '34.53 ETH', img: '/images/avatars/img1.png', rank: '1' },
+    { creatorName: 'Keepitreal', creatorAmount: '34.53 ETH', img: '/images/avatars/img2.png', rank: '1' },
+    { creatorName: 'Keepitreal', creatorAmount: '34.53 ETH', img: '/images/avatars/img3.png', rank: '1' },
+    { creatorName: 'Keepitreal', creatorAmount: '34.53 ETH', img: '/images/avatars/img4.png', rank: '1' },
+    { creatorName: 'Keepitreal', creatorAmount: '34.53 ETH', img: '/images/avatars/img5.png', rank: '1' },
+    { creatorName: 'Keepitreal', creatorAmount: '34.53 ETH', img: '/images/avatars/img6.png', rank: '1' },
+    { creatorName: 'Keepitreal', creatorAmount: '34.53 ETH', img: '/images/avatars/img7.png', rank: '1' },
+    { creatorName: 'Keepitreal', creatorAmount: '34.53 ETH', img: '/images/avatars/img8.png', rank: '1' },
+    { creatorName: 'Keepitreal', creatorAmount: '34.53 ETH', img: '/images/avatars/img9.png', rank: '1' },
+    { creatorName: 'Keepitreal', creatorAmount: '34.53 ETH', img: '/images/avatars/img10.png', rank: '1' },
+    { creatorName: 'Keepitreal', creatorAmount: '34.53 ETH', img: '/images/avatars/img11.png', rank: '1' },
+    { creatorName: 'Keepitreal', creatorAmount: '34.53 ETH', img: '/images/avatars/img12.png', rank: '1' },
 ]

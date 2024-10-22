@@ -26,3 +26,10 @@ export type CategoryCardProp = {
     img: string;
     icon: string;
 };
+
+export type CreatorCard = {
+    img: string;
+    creatorName: string;
+    creatorAmount: string;
+    rank: string;
+};

@@ -20,11 +20,17 @@ const config: Config = {
       'space-mono': ['var(--font-space-mono)', 'sans-serif']
     },
     container: {
-      center: true
+      center: true,
+      padding: '1.5rem',
+      screens: {
+        lg: '800px',   // Custom width for 'lg' breakpoint
+        xl: '1000px',  // Custom width for 'xl' breakpoint
+        '2xl': '1200px', // Custom width for '2xl' breakpoint
+      },
     },
     fontSize: {
       '3xl': '4.188rem',
-      '2xl': '3.188rem',
+      '2xl': ['3.188rem', { lineHeight: '3.5rem' }],
       'xl': '2.375rem',
       'lg': '1.75rem',
       'md': '1.175rem',
@@ -35,6 +41,7 @@ const config: Config = {
       20: '20px',
       full: '100%'
     }
+
   },
   plugins: [],
 };

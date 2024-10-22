@@ -11,7 +11,7 @@ export default function CollectionCard(props: Collection) {
 				src={props.images?.[0]}
 				width={300}
 				height={300}
-				className='object-cover rounded-20 bg-black-secondary'
+				className='object-cover w-full rounded-20 bg-black-secondary'
 			/>
 			<div className='flex *:flex-1 gap-x-3 mb-2'>
 				<Image
