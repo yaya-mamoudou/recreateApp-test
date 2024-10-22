@@ -48,16 +48,16 @@ const Stat = (props: Props) => {
 
 const ButtonAndStats = () => {
 	return (
-		<>
+		<div className='flex flex-col items-center md:items-start'>
 			<Button className='mt-6 w-full '>
 				<Rocket size={20} /> Get Started
 			</Button>
 
-			<div className='flex gap-x-20 mt-6'>
+			<div className='flex gap-x-8 md:gap-x-20 mt-6'>
 				<Stat label='Total Sale' value='240k+' />
 				<Stat label='Auctions' value='100k+' />
 				<Stat label='Artists' value='240k+' />
 			</div>
-		</>
+		</div>
 	);
 };

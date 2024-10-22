@@ -5,7 +5,7 @@ import { Mail } from 'lucide-react';
 
 export default function CtaWeeklyDigest() {
 	return (
-		<div className=' container rounded-20 flex flex-col md:flex-row gap-x-16 items-center md:bg-black-secondary p-10'>
+		<div className=' container rounded-20 flex flex-col md:flex-row gap-x-16 items-center md:bg-black-secondary md:p-10'>
 			<Image
 				alt='Astronaute'
 				src='/images/astronaute.png'

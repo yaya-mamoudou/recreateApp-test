@@ -13,7 +13,7 @@ export default function Countdown() {
 					backgroundPosition: 'center',
 				}}
 			>
-				<div className='min-h-[inherit] bg-gradient-to-b from-transparent via-transparent via-20% to-purple'>
+				<div className='min-h-[inherit] pt-20 bg-gradient-to-b from-transparent via-transparent via-20% to-purple'>
 					<div className='container flex flex-col space-y-6 justify-center md:flex-row min-h-[inherit] md:items-end pb-20'>
 						<div className='space-y-4 mt-auto'>
 							<div className='rounded-20 flex items-center gap-x-2 sp w-fit py-3 px-4 bg-black-secondary'>
