@@ -11,9 +11,12 @@ type Props = React.DetailedHTMLProps<
 
 export default function Button(props: Props) {
 	let { className, variant, size, ...rest } = props;
-	let extraClasses;
+	let extraClasses = '';
 
 	if (variant === 'outlined') extraClasses = 'border-2 bg-transparent border-purple';
+	if (size === 'sm') extraClasses = extraClasses.concat(' h-[3rem]');
+
+	console.log(extraClasses, '====');
 
 	return (
 		<button

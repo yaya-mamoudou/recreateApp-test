@@ -5,6 +5,7 @@ import CreatorCard from '@/components/cards/creator-card';
 import DiscoveryCard from '@/components/cards/discovery-card';
 import HeroCard from '@/components/cards/hero-card';
 import HowItWorksCard from '@/components/cards/how-it-works-card';
+import CtaWeeklyDigest from '@/components/cta-weekly-digest';
 import { categoriesCardList, collections, discoveries, howItWorksList } from '@/data/mock-data';
 import { Rocket } from 'lucide-react';
 
@@ -43,6 +44,8 @@ export default function HomePage() {
 				<CategoryCard {...categoriesCardList[0]} />
 
 				<HeroCard />
+
+				<CtaWeeklyDigest />
 			</main>
 		</div>
 	);
