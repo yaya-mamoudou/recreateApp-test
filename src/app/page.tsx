@@ -3,6 +3,7 @@ import CategoryCard from '@/components/cards/category-card';
 import CollectionCard from '@/components/cards/collection-card';
 import CreatorCard from '@/components/cards/creator-card';
 import DiscoveryCard from '@/components/cards/discovery-card';
+import HeroCard from '@/components/cards/hero-card';
 import HowItWorksCard from '@/components/cards/how-it-works-card';
 import { categoriesCardList, collections, discoveries, howItWorksList } from '@/data/mock-data';
 import { Rocket } from 'lucide-react';
@@ -40,6 +41,8 @@ export default function HomePage() {
 				<HowItWorksCard {...howItWorksList[0]} />
 
 				<CategoryCard {...categoriesCardList[0]} />
+
+				<HeroCard />
 			</main>
 		</div>
 	);
