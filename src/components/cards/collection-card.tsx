@@ -17,15 +17,15 @@ export default function CollectionCard(props: Collection) {
 				<Image
 					alt={props.title}
 					src={props.images?.[1]}
-					width={0}
-					height={0}
+					width={100}
+					height={100}
 					className='object-cover rounded-20 aspect-square  bg-black-secondary'
 				/>
 				<Image
 					alt={props.title}
 					src={props.images?.[2]}
-					width={0}
-					height={0}
+					width={100}
+					height={100}
 					className='object-cover flex-1 rounded-20 aspect-square  bg-black-secondary'
 				/>
 				<div className='object-cover justify-center items-center flex font-semibold text-md flex-1 rounded-20 aspect-square font-space-mono text-white bg-purple'>
