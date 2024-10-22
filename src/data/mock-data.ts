@@ -34,14 +34,14 @@ export const discoveries: DiscoveryProps[] = [
         creator: { name: 'NebulaKid', avatar: '/images/avatars/img15.png' },
         price: '1.63 ETH',
         highestBid: '0.33 wETH',
-        img: '/images/nft-discovery/img1.png'
+        img: '/images/nft-discovery/img2.png'
     },
     {
         title: 'AstroFiction',
         creator: { name: 'Spaceone', avatar: '/images/avatars/img12.png' },
         price: '1.63 ETH',
         highestBid: '0.33 wETH',
-        img: '/images/nft-discovery/img1.png'
+        img: '/images/nft-discovery/img3.png'
     }
 ]
 

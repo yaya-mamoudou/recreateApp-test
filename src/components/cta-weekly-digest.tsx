@@ -5,13 +5,13 @@ import { Mail } from 'lucide-react';
 
 export default function CtaWeeklyDigest() {
 	return (
-		<div className=' rounded-20 flex flex-col md:flex-row gap-x-16 items-center md:bg-black-secondary p-10'>
+		<div className=' container rounded-20 flex flex-col md:flex-row gap-x-16 items-center md:bg-black-secondary p-10'>
 			<Image
 				alt='Astronaute'
 				src='/images/astronaute.png'
-				width={300}
-				height={300}
-				className='object-cover w-full md:w-[300px]  rounded-20 rounded-b-[0] bg-black-secondary'
+				width={500}
+				height={500}
+				className='object-cover w-full md:w-[500px]  rounded-20 rounded-b-[0] bg-black-secondary'
 			/>
 
 			<div className='mt-8'>

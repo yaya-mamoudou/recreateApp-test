@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function HowItWorksCard(props: HowItWorkCard) {
 	return (
-		<div className=' rounded-20 flex flex-col items-center bg-black-secondary p-6'>
+		<div className='rounded-20 text-center flex flex-col items-center bg-black-secondary p-6'>
 			<Image
 				alt={props.title}
 				src={props.img}

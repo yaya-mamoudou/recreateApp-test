@@ -6,13 +6,13 @@ import CardTitleAndCreator from '../card-title-and-creator';
 
 export default function DiscoveryCard(props: DiscoveryProps) {
 	return (
-		<div className='rounded-20 bg-black-secondary'>
+		<div className='rounded-20 bg-black-secondary w-full'>
 			<Image
 				alt={props.title}
 				src={props.img}
 				width={300}
 				height={300}
-				className='object-cover rounded-20 rounded-b-[0] bg-black-secondary'
+				className='object-cover w-full rounded-20 rounded-b-[0] bg-black-secondary'
 			/>
 			<div className='p-6 '>
 				<CardTitleAndCreator
