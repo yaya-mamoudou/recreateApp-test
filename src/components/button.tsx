@@ -10,7 +10,7 @@ type Props = React.DetailedHTMLProps<
 };
 
 export default function Button(props: Props) {
-	let { className, variant, size, ...rest } = props;
+	const { className, variant, size, ...rest } = props;
 	let extraClasses = '';
 
 	if (variant === 'outlined') extraClasses = 'border-2 bg-transparent border-purple';

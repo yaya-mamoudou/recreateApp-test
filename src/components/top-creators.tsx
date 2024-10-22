@@ -7,7 +7,6 @@ import { useMediaQuery } from 'react-responsive';
 
 export default function TopCreators() {
 	let data = [...topCreators];
-	const isDesktopOrLaptop = useMediaQuery({ query: '(max-width: 1224px)' });
 	const isTablet = useMediaQuery({ query: '(max-width: 768px)' });
 	const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
 

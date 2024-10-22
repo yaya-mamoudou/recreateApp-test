@@ -1,7 +1,5 @@
 import type { DiscoveryProps } from '@/types';
 import Image from 'next/image';
-import React from 'react';
-import CreatorCard from './creator-card';
 import CardTitleAndCreator from '../card-title-and-creator';
 
 export default function DiscoveryCard(props: DiscoveryProps) {
