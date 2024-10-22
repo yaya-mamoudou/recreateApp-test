@@ -1,3 +1,4 @@
+import BrowseCategories from '@/components/categories';
 import Hero from '@/components/hero';
 import Navbar from '@/components/navbar';
 import TopCreators from '@/components/top-creators';
@@ -13,6 +14,7 @@ export default function HomePage() {
 			<main className='space-y-28'>
 				<TrendingCollection />
 				<TopCreators />
+				<BrowseCategories />
 			</main>
 		</div>
 	);

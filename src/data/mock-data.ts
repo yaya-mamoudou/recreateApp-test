@@ -70,7 +70,7 @@ export const categoriesCardList: CategoryCardProp[] = [
     { img: '/images/categories/img4.png', name: 'Photography', icon: '/svg/Camera.svg' },
     { img: '/images/categories/img5.png', name: 'Video', icon: '/svg/VideoCamera.svg' },
     { img: '/images/categories/img6.png', name: 'Utility', icon: '/svg/MagicWand.svg' },
-    { img: '/images/categories/img7.png', name: 'Sport', icon: '/svg/Backetball.svg' },
+    { img: '/images/categories/img7.png', name: 'Sport', icon: '/svg/Basketball.svg' },
     { img: '/images/categories/img8.png', name: 'Virtual Worlds', icon: '/svg/Planet.svg' }
 ]
 

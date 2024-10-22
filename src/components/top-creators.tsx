@@ -1,11 +1,19 @@
-import { collections, topCreators } from '@/data/mock-data';
-import React from 'react';
-import CollectionCard from './cards/collection-card';
-import CreatorCard from './cards/creator-card';
-import Button from './button';
+'use client';
+import { topCreators } from '@/data/mock-data';
 import { Rocket } from 'lucide-react';
+import Button from './button';
+import CreatorCard from './cards/creator-card';
+import { useMediaQuery } from 'react-responsive';
 
 export default function TopCreators() {
+	let data = [...topCreators];
+	const isDesktopOrLaptop = useMediaQuery({ query: '(max-width: 1224px)' });
+	const isTablet = useMediaQuery({ query: '(max-width: 768px)' });
+	const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
+
+	if (isTablet) data = data.slice(0, 6);
+	if (isMobile) data = data.slice(0, 5);
+
 	return (
 		<div className='container'>
 			<div className='flex items-end justify-between'>
@@ -19,14 +27,14 @@ export default function TopCreators() {
 				</Button>
 			</div>
 			<div className='grid grid-cols-12 gap-6 mt-12'>
-				{topCreators.map((item, index) => (
+				{data.map((item, index) => (
 					<div key={index} className='col-span-12 sm:col-span-6 lg:col-span-3'>
 						<CreatorCard {...item} />
 					</div>
 				))}
 			</div>
 
-			<Button className='md:hidden' variant='outlined'>
+			<Button className='md:hidden w-full mt-10' variant='outlined'>
 				<Rocket className='text-purple' size={18} /> View Rankings
 			</Button>
 		</div>
