@@ -48,13 +48,22 @@ export default function Footer() {
 
 						<div className='text-gray-400 space-y-4'>
 							<div>Get exclusive promotions & updates straight to your inbox.</div>
-							<div className='bg-white flex mt-8 rounded-20 justify-between'>
+							<div className='bg-white hidden md:flex mt-8 rounded-20 justify-between'>
 								<input
 									className='rounded-20 w-auto text-sm px-6 ring-0 flex-1 border-none focus:border-none outline-none appearance-none text-black'
 									placeholder='Enter your email here'
 								/>
 								<Button className='px-2 md:px-10' size='sm'>
 									<Mail className='hidden md:block' size={18} /> Subscribe
+								</Button>
+							</div>
+							<div className='md:hidden mt-8'>
+								<input
+									className='rounded-20 bg-white w-full text-sm h-[3rem] mb-4 px-4 ring-0 flex-1 border-none focus:border-none outline-none appearance-none text-black'
+									placeholder='Enter your email here'
+								/>
+								<Button size='sm' className='w-full'>
+									<Mail size={18} /> Subscribe
 								</Button>
 							</div>
 						</div>
